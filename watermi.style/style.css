@@ -1,4 +1,4 @@
-git nav a{
+nav a{
     overflow:hidden;
     color:white;
     text-decoration: none;
@@ -34,8 +34,4 @@ body {
     float:right;
 }
 
-.flex-container{
-    display:flex;
-    justify-content: flex-end;
     
-}
