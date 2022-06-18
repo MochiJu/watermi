@@ -13,7 +13,7 @@ nav {width:100%;
     top:0;
     left:0;
     color:white;
-    display: flex;
+    display: inline-block;
     flex-direction: row;
 }
 body {
@@ -24,7 +24,7 @@ body {
     margin-right:100px;
 }
 .button1{
-    float:right;
+    float:righ;
     color:white;
     text-decoration:none;
     padding:15px 32px;
