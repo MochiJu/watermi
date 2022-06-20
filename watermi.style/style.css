@@ -4,7 +4,7 @@ nav a{
     text-decoration: none;
 }
 nav {width:100%;
-    padding:25px ;
+    padding:25px;
     background-color: rgb(29, 28, 28);
     position:fixed;
     z-index:1;
@@ -13,24 +13,24 @@ nav {width:100%;
     top:0;
     left:0;
     color:white;
-    display: inline-block;
-    flex-direction: row;
+    white-space:nowrap;
+    
 }
 body {
     padding-top: 80px; 
 }
 #searchbar{
     float:right;
-    margin-right:100px;
 }
-.button1{
+.login-button{
     float:right;
     color:white;
     text-decoration:none;
-    padding:15px 32px;
+    padding-left: 10px;
+    padding-right: 10px;
     outline: green;
 }
-.button2{
+.sign-up-button{
     float:right;
 }
 
