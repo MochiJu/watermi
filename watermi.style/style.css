@@ -1,29 +1,32 @@
 nav{
-margin:0;
-padding:0;
+padding: 10px;
 background-color: black;
 }
-
 #navbar{
-    background-color: black;
+    margin:0;
+    padding:0;
 }
 .flex{
     color:white;
-    display:inline;
+    display:flexbox;
+    list-style-type: none;
+    overflow:hidden;
 }
 
 .flex a{
     display:inline;
     text-decoration: none;
     color:white;
+    padding:14px 16px;
 }
 
 .flex div{
     display:inline;
-    margin: 20px;
+    float:right;
+    padding-right: 14px;
 }
 
 .flex form{
     display:inline;
-    margin-left:20px;
+    float:right;
 }
