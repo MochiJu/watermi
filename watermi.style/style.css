@@ -2,7 +2,7 @@ body{
     margin:0px;
 }
 nav{
-    background-color: black;
+    background-color: rgb(37, 36, 36);
     position:fixed;
     width:100%;
     top:0;
@@ -12,7 +12,7 @@ nav{
     margin:0px;
 }
 #navbar{
-    margin:5px;
+    margin:20px;
     padding:10px;
     
 }
@@ -21,23 +21,31 @@ nav{
     display:flexbox;
     list-style-type: none;
 
+
 }
 
 .flex a{
-    display:inline;
+    display:inline-block;
     text-decoration: none;
     color:white;
-    
+    padding-left: 20px;
+}
+.flex a:hover:not(.active) {
+    display:inline-block;
+    background-color: #111;
+    padding:10px;
 }
 
 .flex div{
     display:inline;
     float:right;
+    padding-right:10px;
 }
 
 .flex form{
     display:inline;
     float:right;
+    padding-right:10px
 }
 
 h1 {
