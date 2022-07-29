@@ -6,7 +6,7 @@ body{
 }
 nav{
     background-color: rgb(26, 25, 25);
-    position:fixed;
+    position:sticky;
     width:100%;
     top:0;
     left:0;
@@ -28,7 +28,7 @@ nav{
 }
 
 .flex a{
-    display:inline-block;
+    display:inline-block;    
     text-decoration: none;
     color:white;
     padding-left: 20px;
@@ -83,9 +83,4 @@ border-radius: 2px;
 .flex form:hover:not(.active){
     outline-style: solid;
     border-color: black;
-}
-
-h1 {
-    padding:100px;
-    left:20px
 }
