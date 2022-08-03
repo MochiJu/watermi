@@ -12,12 +12,12 @@ nav{
     left:0;
     overflow:hidden;
     margin:0px;
-    padding: 0 4px;
+    padding: 0;
+    
 
 }
 #navbar{
-    margin:20px;
-    padding: 0 4px;
+    margin: 10px;
     
 }
 .flex{
@@ -34,17 +34,14 @@ nav{
 .flex a{    
     text-decoration: none;
     color:white;
-    padding-left: 20px;
+    padding:5px;
     flex-grow:1;
+    border-radius: 2px;
 }
 .flex a:hover:not(.active) {
     background-color: rgb(0, 0, 0);
-    padding:10px;
 }
 
-.flex div{
-    padding-right:10px;
-}
 
 .flex div.login-button{
     display:flex;
@@ -60,32 +57,29 @@ nav{
 }
 
 .flex div.login-button:hover:not(.active){
-    padding:10px;
     background-color: rgb(46, 158, 46);
     color:white;
 }
 
 .flex div.sign-up-button{
-    content: 20px;
     background-color: rgb(56, 161, 56);
     border-radius: 2px;
 }
 .flex div.sign-up-button:hover:not(.active){
-padding:10px;
-background-color:green;
+background-color:rgb(3, 63, 3);
 border-radius: 2px;
 }
 .flex form{
-    padding-right:10px;
+    padding:5px;
     margin-left:10px;
+
     
 
 
 }
 
 .flex form:hover:not(.active){
-    padding:5px;
-    background-color: whitesmoke;
+    background-color: rgb(104, 104, 104);
     border-radius: 2px;
 }
 
