@@ -1,92 +1,86 @@
 body{
     margin:0px;
-    
-    
-
+    padding:0px;
 }
-nav{
-    background-color: rgb(26, 25, 25);
-    position:sticky;
-    width:100%;
-    top:0;
-    left:0;
-    overflow:hidden;
-    margin:0px;
-    padding: 0;
-    
-
-}
-#navbar{
-    margin: 10px;
+nav {
+    background-color: rgb(32, 32, 32);
+    overflow: hidden;
+    max-width: 100%;
+    color: white;
+    display:block;
+    float:none;
+    padding:7px 10px;
     
 }
-.flex{
-    color:white;
-    display:flex;
-    flex-direction: row;
-    list-style-type: none;
-    flex-wrap: nowrap;
-    align-items: center;
 
 
-
-}
-
-.flex a{    
+.flex a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
     text-decoration: none;
     color:white;
-    padding:5px;
-    flex-grow:1;
-    border-radius: 2px;
+    padding:10px 12px;
+
+}
+
+.flex a:hover {
+    background-color: rgb(126, 123, 123);
+ 
+}
+
+
+
+form {
+    float: right;
+    padding: 10px 14px;
     text-align: center;
 }
-.flex a:hover:not(.active) {
-    background-color: rgb(0, 0, 0);
+form:hover{
+background-size: 1px;
+background-color: rgb(126, 123, 123);
 }
 
 
-.flex div.login-button{
-    display:flex;
-    outline:2px;
-    outline-color: green;
-    outline-style: solid;
+.login-button{
+  padding:10px 14px;
+  text-align: center;
+  float: right;
+  margin-left: 5px;
+  margin-right:5px;
+  color: rgb(2, 161, 2);
+  background-color: rgb(32, 32, 32);
+  border-style:solid;
+  border-color:rgb(32, 32, 32);
+ 
+}
+
+.login-button:hover{
+    background-color:green;
+    border-radius: 2px;
+    color: white;
+   
+    
+}
+
+.sign-up-button{
+    padding:10px 14px;
+    text-align: center;
+    float: right;
     border-color: green;
-    color:rgb(56, 160, 56);
-    padding-left:5px;
-    padding-right:10px;
-    border-radius: 2px;
-    text-align: center;
-
-
+    border-style:solid;
+    border-width: 2px;
+    border-radius:2px;
     
 }
 
-.flex div.login-button:hover:not(.active){
-    background-color: rgb(46, 158, 46);
-    color:white;
-}
-
-.flex div.sign-up-button{
-    background-color: rgb(56, 161, 56);
+.sign-up-button:hover{
+    background-color:green;
     border-radius: 2px;
-    text-align: center;
-}
-.flex div.sign-up-button:hover:not(.active){
-background-color:rgb(3, 63, 3);
-border-radius: 2px;
-}
-.flex form{
-    padding:5px;
-    margin-left:10px;
-
+   
     
-
-
-}
-
-.flex form:hover:not(.active){
-    background-color: rgb(104, 104, 104);
-    border-radius: 2px;
 }
 
 
