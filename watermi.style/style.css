@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 16px;
+}
+
+input {
+    font-size: 16px;
+    line-height: 35px;
+}
+
+
+nav {
+    background-color: rgb(32, 32, 32);
+    overflow: hidden;
+    max-width: 100%;
+    color: white;
+    float: none;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 12px 12px;
+    align-self: center;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.flex a:hover {
+    background-color: rgb(126, 123, 123);
+}
+
+#searchbar-container:hover {
+    background: white;
+}
+
+#searchbar-container {
+    align-self: center;
+}
+
+.btn {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    padding: 10px 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ml {
+    margin-left: 5px;
+}
+
+.mt {
+    margin-top: 5px;
+}
+
+.mb {
+    margin-bottom: 5px;
+}
+
+.mr {
+    margin-right: 5px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.button-primary {
+    color: rgb(2, 161, 2);
+    background-color: rgb(0, 0, 0);
+    border-color: green;
+}
+
+.button-primary:hover {
+    background-color: green;
+    color: white;
+}
+
+.button-secondary {
+    float: right;
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.button-secondary:hover {
+    background-color: white;
+    color: black;
+}
+
+.login-button {
+    text-align: center;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
