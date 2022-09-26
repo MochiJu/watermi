@@ -37,11 +37,9 @@ form {
     float: right;
     padding: 10px 14px;
     text-align: center;
+    z-index:  2;
 }
-form:hover{
-background-size: 1px;
-background-color: rgb(126, 123, 123);
-}
+
 
 
 .login-button{
@@ -54,14 +52,16 @@ background-color: rgb(126, 123, 123);
   background-color: rgb(32, 32, 32);
   border-style:solid;
   border-color:rgb(32, 32, 32);
- 
+  border-width: 2px;
 }
 
 .login-button:hover{
     background-color:green;
     border-radius: 2px;
     color: white;
-   
+    border-style:solid;
+    border-color:green;
+    
     
 }
 
@@ -71,8 +71,10 @@ background-color: rgb(126, 123, 123);
     float: right;
     border-color: green;
     border-style:solid;
-    border-width: 2px;
     border-radius:2px;
+    border-width: 2px;
+    cursor:pointer;
+    
     
 }
 
