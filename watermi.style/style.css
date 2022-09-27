@@ -1,47 +1,88 @@
-body{
-    margin:0px;
-    padding:0px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 16px;
 }
+
+input {
+    font-size: 16px;
+    line-height: 35px;
+}
+
+
 nav {
     background-color: rgb(32, 32, 32);
     overflow: hidden;
     max-width: 100%;
     color: white;
-    display:block;
-    float:none;
-    padding:7px 10px;
-    
+    float: none;
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
 
-.flex a{
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+nav a{
     text-decoration: none;
     color: white;
     float: left;
     display: block;
     text-align: center;
-    text-decoration: none;
-    color:white;
-    padding:10px 12px;
+    padding: 12px 12px;
+    align-self: center;
+}
 
+.spacer {
+    flex: 1;
 }
 
 .flex a:hover {
     background-color: rgb(126, 123, 123);
- 
 }
 
+#searchbar-container:hover {
+    background: white;
+}
 
+#searchbar-container {
+    align-self: center;
+}
 
-form {
-    float: right;
+.btn {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
     padding: 10px 14px;
     text-align: center;
+<<<<<<< HEAD
     z-index:  2;
 }
 
+=======
+    cursor: pointer;
+}
 
+.ml {
+    margin-left: 5px;
+}
+>>>>>>> d34d7c327cfe8a2b342c2e940f4a16b970ffe630
 
+.mt {
+    margin-top: 5px;
+}
+
+<<<<<<< HEAD
 .login-button{
   padding:10px 14px;
   text-align: center;
@@ -53,22 +94,41 @@ form {
   border-style:solid;
   border-color:rgb(32, 32, 32);
   border-width: 2px;
+=======
+.mb {
+    margin-bottom: 5px;
+>>>>>>> d34d7c327cfe8a2b342c2e940f4a16b970ffe630
 }
 
-.login-button:hover{
-    background-color:green;
-    border-radius: 2px;
+.mr {
+    margin-right: 5px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.button-primary {
+    color: rgb(2, 161, 2);
+    background-color: rgb(0, 0, 0);
+    border-color: green;
+}
+
+.button-primary:hover {
+    background-color: green;
     color: white;
+<<<<<<< HEAD
     border-style:solid;
     border-color:green;
     
     
+=======
+>>>>>>> d34d7c327cfe8a2b342c2e940f4a16b970ffe630
 }
 
-.sign-up-button{
-    padding:10px 14px;
-    text-align: center;
+.button-secondary {
     float: right;
+<<<<<<< HEAD
     border-color: green;
     border-style:solid;
     border-radius:2px;
@@ -76,13 +136,25 @@ form {
     cursor:pointer;
     
     
+=======
+    border-color: rgb(255, 255, 255);
+    color: white;
+>>>>>>> d34d7c327cfe8a2b342c2e940f4a16b970ffe630
 }
 
-.sign-up-button:hover{
-    background-color:green;
-    border-radius: 2px;
-   
-    
+.button-secondary:hover {
+    background-color: white;
+    color: black;
 }
+
+.login-button {
+    text-align: center;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
 
 
