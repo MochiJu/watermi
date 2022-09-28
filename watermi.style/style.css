@@ -27,6 +27,7 @@ nav {
     flex-direction: row;
 }
 
+
 .flex-col {
     display: flex;
     flex-direction: column;
@@ -44,7 +45,6 @@ nav a{
     text-align: center;
     padding: 12px 12px;
     align-self: center;
-    position:sticky;
 }
 
 .spacer {
@@ -69,7 +69,8 @@ nav a{
     border-radius: 2px;
     padding: 10px 14px;
     text-align: center;
-    z-index:  2;
+    z-index:  2;^
+    position:fixed;
 }
 
 
