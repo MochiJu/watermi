@@ -17,8 +17,11 @@ nav {
     max-width: 100%;
     color: white;
     float: none;
+    
 }
-
+.position{
+    position:fixed;
+}
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -41,6 +44,7 @@ nav a{
     text-align: center;
     padding: 12px 12px;
     align-self: center;
+    position:sticky;
 }
 
 .spacer {
