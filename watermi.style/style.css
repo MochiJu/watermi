@@ -69,24 +69,24 @@ nav a{
     border-radius: 2px;
     padding: 10px 14px;
     text-align: center;
-<<<<<<< HEAD
+
     z-index:  2;
 }
 
-=======
+
     cursor: pointer;
 }
 
 .ml {
     margin-left: 5px;
 }
->>>>>>> d34d7c327cfe8a2b342c2e940f4a16b970ffe630
+
 
 .mt {
     margin-top: 5px;
 }
 
-<<<<<<< HEAD
+
 .login-button{
   padding:10px 14px;
   text-align: center;
@@ -98,10 +98,10 @@ nav a{
   border-style:solid;
   border-color:rgb(32, 32, 32);
   border-width: 2px;
-=======
+
 .mb {
     margin-bottom: 5px;
->>>>>>> d34d7c327cfe8a2b342c2e940f4a16b970ffe630
+
 }
 
 .mr {
@@ -121,18 +121,15 @@ a {
 .button-primary:hover {
     background-color: green;
     color: white;
-<<<<<<< HEAD
     border-style:solid;
     border-color:green;
     
     
-=======
->>>>>>> d34d7c327cfe8a2b342c2e940f4a16b970ffe630
+
 }
 
 .button-secondary {
     float: right;
-<<<<<<< HEAD
     border-color: green;
     border-style:solid;
     border-radius:2px;
@@ -143,7 +140,7 @@ a {
 =======
     border-color: rgb(255, 255, 255);
     color: white;
->>>>>>> d34d7c327cfe8a2b342c2e940f4a16b970ffe630
+
 }
 
 .button-secondary:hover {
