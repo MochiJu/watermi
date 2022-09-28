@@ -94,11 +94,13 @@ nav a{
   margin-left: 5px;
   margin-right:5px;
   color: rgb(2, 161, 2);
+}
+.login-button:hover{
   background-color: rgb(32, 32, 32);
   border-style:solid;
   border-color:rgb(32, 32, 32);
   border-width: 2px;
-
+}
 .mb {
     margin-bottom: 5px;
 
@@ -137,7 +139,7 @@ a {
     cursor:pointer;
     
     
-=======
+
     border-color: rgb(255, 255, 255);
     color: white;
 
