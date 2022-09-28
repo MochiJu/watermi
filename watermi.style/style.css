@@ -69,13 +69,9 @@ nav a{
     border-radius: 2px;
     padding: 10px 14px;
     text-align: center;
-
     z-index:  2;
 }
 
-
-    cursor: pointer;
-}
 
 .ml {
     margin-left: 5px;
