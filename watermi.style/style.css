@@ -13,15 +13,19 @@ input {
 
 
 nav {
+    top:0;
     background-color: rgb(32, 32, 32);
     overflow: hidden;
     max-width: 100%;
     color: white;
     float: none;
+    position:sticky;
+
+    
 
 }
 .position{
-    position:fixed;
+    position:sticky;
 }
 .flex-row {
     display: flex;
@@ -46,6 +50,7 @@ nav a{
     text-align: center;
     padding: 12px 12px;
     align-self: center;
+    
 }
 
 .spacer {
