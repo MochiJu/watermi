@@ -3,6 +3,8 @@ body {
     padding: 0;
     font-family: 'Roboto Light', sans-serif;
     font-size: 16px;
+    background-image: url("../images/slider2.jpeg");
+    background-size: 100%;
    
 }
 
@@ -156,6 +158,27 @@ a {
 }
 
 
+h1{
+    text-align: center;
+    padding:150px;
+    font-family: italic;
+    font-size:140px;
+    vertical-align: left;
+}
 
+.button-third{
+    padding:10px 14px;
+    text-align: center;
+    text-decoration:none;
+   
+}
 
+.button-fourth{
+    text-decoration: none;
+    border-collapse: collapse;
+    text-align:center;
+}
 
+main{
+    text-decoration: none;
+}
