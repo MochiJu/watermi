@@ -175,9 +175,7 @@ h1{
     border-color:green;
     background-color:green;
     border-style:solid;
-    margin:auto;
-    display:flexbox;
-    text-align:center;
+    
     
    
 }
@@ -190,7 +188,7 @@ h1{
     border-color: yellow;
     border-style: solid;
     background-color:white;
-    display:inline-block
+  
    
 }
 
