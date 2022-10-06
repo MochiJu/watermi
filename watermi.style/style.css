@@ -159,26 +159,43 @@ a {
 
 
 h1{
-    text-align: center;
     padding:150px;
     font-family: italic;
     font-size:140px;
     vertical-align: left;
+    text-align: center;
+
 }
 
 .button-third{
     padding:10px 14px;
     text-align: center;
     text-decoration:none;
+    color:black;
+    border-color:green;
+    background-color:green;
+    border-style:solid;
+    
    
 }
 
 .button-fourth{
+    padding:10px 14px;
     text-decoration: none;
-    border-collapse: collapse;
     text-align:center;
+    color:yellow;
+    border-color: yellow;
+    border-style: solid;
+    background-color:white;
 }
 
-main{
-    text-decoration: none;
+.button-third:hover{
+    background-color:greenyellow;
+    border-color:greenyellow;
 }
+.button-fourth:hover{
+    background-color:yellow;
+    border-color:yellow;
+    color:white;
+}
+
