@@ -1,27 +1,30 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Light', sans-serif;
-    font-size: 16px;
-    background-image: url("../images/slider2.jpeg");
-    background-size: 100%;
+    margin:0;
+    padding:0;
+    font-family:'Roboto Light', sans-serif;
+    font-size:16px;
+    background-image:url("../images/slider2.jpeg");
+    background-size:100%;
+    background-repeat:repeat-x;
+    max-width:100%;
+    height:auto;
    
 }
 
 input {
-    font-size: 16px;
-    line-height: 35px;
+    font-size:16px;
+    line-height:35px;
 }
 
 
 nav {
-    top:0;
-    background-color: rgb(32, 32, 32);
-    overflow: hidden;
-    max-width: 100%;
-    color: white;
-    float: none;
+    background-color:rgb(32, 32, 32);
+    color:white;
+    float:none;
+    max-width:100%;
+    overflow:hidden;
     position:sticky;
+    top:0;
 
     
 
@@ -30,14 +33,14 @@ nav {
     position:sticky;
 }
 .flex-row {
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction:row;
 }
 
 
 .flex-col {
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
 }
 
 .flex {
@@ -45,151 +48,152 @@ nav {
 }
 
 nav a{
-    text-decoration: none;
-    color: white;
-    float: left;
-    display: block;
-    text-align: center;
+    align-self:center;
+    color:white;
+    display:block;
+    float:left;
     padding: 12px 12px;
-    align-self: center;
-    
+    text-decoration:none;
+    text-align:center;
 }
 
 .spacer {
-    flex: 1;
+    flex:1;
 }
 
 .flex a:hover {
-    background-color: rgb(126, 123, 123);
+    background-color:rgb(126, 123, 123);
 }
 
 #searchbar-container:hover {
-    background: white;
+    background:white;
 }
 
 #searchbar-container {
-    align-self: center;
+    align-self:center;
 }
 
 .btn {
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 2px;
-    padding: 10px 14px;
-    text-align: center;
-    z-index:  2;
+    border-style:solid;
+    border-width:2px;
+    border-radius:2px;
+    padding:10px 14px;
+    text-align:center;
+    z-index: 2;
 }
 
 
 .ml {
-    margin-left: 5px;
+    margin-left:5px;
 }
 
 
 .mt {
-    margin-top: 5px;
+    margin-top:5px;
 }
 
 
 .login-button{
-  padding:10px 14px;
-  text-align: center;
-  float: right;
-  margin-left: 5px;
-  margin-right:5px;
-  color: rgb(2, 161, 2);
+    color:rgb(2, 161, 2);
+    float:right;
+    margin-left:5px;
+    margin-right:5px;
+    padding:10px 14px;
+    text-align:center;
+    
 }
 .login-button:hover{
-  background-color: rgb(32, 32, 32);
-  border-style:solid;
-  border-color:rgb(32, 32, 32);
-  border-width: 2px;
+    background-color:rgb(32, 32, 32);
+    border-style:solid;
+    border-color:rgb(32, 32, 32);
+    border-width:2px;
 }
 .mb {
-    margin-bottom: 5px;
+    margin-bottom:5px;
 
 }
 
 .mr {
-    margin-right: 5px;
+    margin-right:5px;
 }
 
 a {
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .button-primary {
-    color: rgb(2, 161, 2);
-    background-color: rgb(0, 0, 0);
-    border-color: green;
+    background-color:rgb(0, 0, 0);
+    border-color:green;
+    color:rgb(2, 161, 2);
     float:right;
     
 }
 
 .button-primary:hover {
-    background-color: green;
-    color: white;
+    background-color:green;
     border-style:solid;
     border-color:green;
+    color:white;
 }
 
 .button-secondary {
-    float: right;
-    border-color: green;
+    border-color:green;
     border-style:solid;
     border-radius:2px;
     border-width: 2px;
-    cursor:pointer;
-    float:right;    
-    border-color: rgb(255, 255, 255);
-    color: white;
+    border-color:rgb(255, 255, 255);
+    cursor:pointer;   
+    color:white;
+    float:right;
 }
 
 .button-secondary:hover {
-    background-color: white;
-    color: black;
+    background-color:white;
+    color:black;
 }
 
 .login-button {
-    text-align: center;
-    float: right;
-    margin-left: 5px;
-    margin-right: 5px;
+    float:right;
+    text-align:center;
+    margin-left:5px;
+    margin-right:5px;
 }
 
 
 h1{
-    padding:150px;
-    font-family: italic;
+    font-family:italic;
     font-size:140px;
-    vertical-align: left;
-    text-align: center;
+    padding:150px;
+    text-align:center;
+    vertical-align:left;
 
 }
 
 .button-third{
+    border-color:rgb(2, 161, 2);
+    background-color:rgb(2, 161, 2);
+    border-style:solid;
+    border-radius:2px;
+    border-width: 2px;
+    color:white;
     padding:10px 14px;
     text-align: center;
     text-decoration:none;
-    color:black;
-    border-color:green;
-    background-color:green;
-    border-style:solid;
     
     
    
 }
 
 .button-fourth{
-    padding:10px 14px;
-    text-decoration: none;
-    text-align:center;
-    color:yellow;
-    border-color: yellow;
-    border-style: solid;
+    border-color:yellow;
+    border-style:solid;
     background-color:white;
-  
-   
+    border-radius:2px;
+    border-width: 2px;
+    color:yellow;
+    padding:10px 14px;
+    text-decoration:none;
+    text-align:center;
 }
 
 .button-third:hover{
@@ -197,8 +201,8 @@ h1{
     border-color:greenyellow;
 }
 .button-fourth:hover{
-    background-color:yellow;
-    border-color:yellow;
+    background-color:rgba(255, 255, 0, 0.973);
+    border-color:rgba(255, 255, 0, 0.973);
     color:white;
 }
 
