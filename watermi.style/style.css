@@ -1,13 +1,14 @@
 body {
-    margin:0;
-    padding:0;
-    font-family:'Roboto Light', sans-serif;
-    font-size:16px;
     background-image:url("../images/slider2.jpeg");
     background-size:100%;
     background-repeat:repeat-x;
-    max-width:100%;
+    font-family:'Roboto Light', sans-serif;
+    font-size:16px;
     height:auto;
+    margin:0;
+    max-width:100%;
+    padding:0;
+    
    
 }
 
@@ -25,10 +26,8 @@ nav {
     overflow:hidden;
     position:sticky;
     top:0;
-
-    
-
 }
+
 .position{
     position:sticky;
 }
@@ -92,25 +91,24 @@ nav a{
     margin-top:5px;
 }
 
-
 .login-button{
     color:rgb(2, 161, 2);
     float:right;
     margin-left:5px;
     margin-right:5px;
     padding:10px 14px;
-    text-align:center;
-    
+    text-align:center; 
 }
+
 .login-button:hover{
     background-color:rgb(32, 32, 32);
     border-style:solid;
     border-color:rgb(32, 32, 32);
     border-width:2px;
 }
+
 .mb {
     margin-bottom:5px;
-
 }
 
 .mr {
@@ -125,8 +123,7 @@ a {
     background-color:rgb(0, 0, 0);
     border-color:green;
     color:rgb(2, 161, 2);
-    float:right;
-    
+    float:right;  
 }
 
 .button-primary:hover {
@@ -166,43 +163,22 @@ h1{
     padding:150px;
     text-align:center;
     vertical-align:left;
-
 }
 
 .button-third{
     border-color:rgb(2, 161, 2);
     background-color:rgb(2, 161, 2);
-    border-style:solid;
-    border-radius:2px;
-    border-width: 2px;
-    color:white;
-    padding:10px 14px;
-    text-align: center;
-    text-decoration:none;
-    
-    
-   
+    color: white;
+    border-radius: 5px;
+    text-decoration: none; 
 }
 
 .button-fourth{
     border-color:yellow;
     border-style:solid;
     background-color:white;
-    border-radius:2px;
-    border-width: 2px;
+    border-radius: 5px;
     color:yellow;
-    padding:10px 14px;
-    text-decoration:none;
-    text-align:center;
-}
-
-.button-third:hover{
-    background-color:greenyellow;
-    border-color:greenyellow;
-}
-.button-fourth:hover{
-    background-color:rgba(255, 255, 0, 0.973);
-    border-color:rgba(255, 255, 0, 0.973);
-    color:white;
+    text-decoration: none;  
 }
 
