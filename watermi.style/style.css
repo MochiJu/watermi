@@ -9,8 +9,6 @@ body {
     max-width:100%;
     padding:0;
     overflow-y: scroll;
-    
-   
 }
 
 input {
@@ -32,6 +30,7 @@ nav {
 .position{
     position:sticky;
 }
+
 .flex-row {
     display:flex;
     flex-direction:row;
@@ -82,11 +81,9 @@ nav a{
     z-index: 2;
 }
 
-
 .ml {
     margin-left:5px;
 }
-
 
 .mt {
     margin-top:5px;
@@ -157,7 +154,6 @@ a {
     margin-right:5px;
 }
 
-
 h1{
     font-family:italic;
     font-size:140px;
@@ -166,18 +162,14 @@ h1{
     vertical-align:left;
 }
 
-
-
 .button-third{
     border-color:rgb(2, 161, 2);
     background-color:rgb(2, 161, 2);
     border-radius: 5px;
     bottom:-400px;
     color: white;
-    text-decoration: none;
     position:absolute;
-   
-    
+    text-decoration: none; 
 }
 
 .button-fourth{
@@ -190,10 +182,6 @@ h1{
     margin-left:70px;
     position:absolute;
     text-decoration: none;
-    
-    
-
-     
 }
 
 section{
