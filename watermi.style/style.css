@@ -171,11 +171,13 @@ h1{
 .button-third{
     border-color:rgb(2, 161, 2);
     background-color:rgb(2, 161, 2);
-    color: white;
     border-radius: 5px;
+    bottom:-400px;
+    color: white;
     text-decoration: none;
     position:absolute;
-    bottom:-400px;
+   
+    
 }
 
 .button-fourth{
@@ -183,11 +185,13 @@ h1{
     border-style:solid;
     background-color:white;
     border-radius: 5px;
-    color:yellow;
-    text-decoration: none;
-    position:absolute;
     bottom:-400px;
+    color:yellow;
     margin-left:70px;
+    position:absolute;
+    text-decoration: none;
+    
+    
 
      
 }
