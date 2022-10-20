@@ -8,6 +8,7 @@ body {
     margin:0;
     max-width:100%;
     padding:0;
+    overflow-y: scroll;
     
    
 }
@@ -165,12 +166,16 @@ h1{
     vertical-align:left;
 }
 
+
+
 .button-third{
     border-color:rgb(2, 161, 2);
     background-color:rgb(2, 161, 2);
     color: white;
     border-radius: 5px;
-    text-decoration: none; 
+    text-decoration: none;
+    position:relative;
+    bottom:0px;
 }
 
 .button-fourth{
@@ -179,6 +184,13 @@ h1{
     background-color:white;
     border-radius: 5px;
     color:yellow;
-    text-decoration: none;  
+    text-decoration: none;
+    position:relative;
+    bottom:0px;
+    margin-left:100px;
+     
 }
 
+section{
+    height:300px;
+}
